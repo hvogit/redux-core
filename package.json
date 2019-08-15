@@ -1,0 +1,11 @@
+{
+  "name": "redux-core",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "redux": "^4.0.4"
+  },
+  "scripts": {
+    "start": "node demo.js"
+  }
+}
