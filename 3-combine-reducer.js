@@ -1,7 +1,7 @@
 const createStore = require('redux').createStore;
 
 // {a: 1, b: 2}
-function ra(state = 0, action) {
+function a(state = 0, action) {
   switch (action.type) {
     case 'INCA':
       return state + 1
@@ -9,7 +9,7 @@ function ra(state = 0, action) {
       return state
   }
 }
-function rb(state = 0, action) {
+function b(state = 0, action) {
   switch (action.type) {
     case 'INCB':
       return state + 1
